@@ -1,0 +1,99 @@
+.second{
+    background: linear-gradient(60deg, rgb(155, 184, 205),rgb(65, 176, 255),rgb(147, 184, 211));
+    background-size: cover;
+}
+.web-name{
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Jost' , sans-serif;
+}
+.web-name a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.web-name a:hover{
+    color: blue;
+}
+.home li{
+    list-style: none;
+    /* text-align: right; */
+}
+.home ul{
+    display: flex;
+    flex-direction: row;
+}
+.home>ul>li>a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    text-decoration: right;
+}
+.home-nav{
+    margin-left: 250%;
+    margin-right: 30px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.Destination-nav{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+.about-nav{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+.home{
+    background-color: black;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-right: 10%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    
+}
+.main-pic place{
+    border: 50px;
+}
+.main-pic dis-place{
+    font-family: 'Jost' , sans-serif;
+
+}
+.main-pic img{
+    /* margin-top: 300px; */
+    width: 200px;
+    height: 100px;
+    gap: 30px;
+    box-sizing: border-box;
+
+}
+.main-pic place{
+    margin-top: 700px;
+}
+.main-pic li{
+    list-style: none;
+    display: flex;
+}
+.main-pic li p{
+    display: flex;
+    flex-direction: column;
+}
+.main-pic  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.place{
+    /* background-color: white; */
+}
